@@ -27,7 +27,7 @@ Email Validation Regex
 #### Register User
 
 - Validate - name, email, password - with Mongoose
-- Hash Password (with bcryptjs)
+- Hash Password (with bcryptjs) (salt)
 - Save User
 - Generate Token
 - Send Response with Token
