@@ -9,6 +9,7 @@ const register = async (req, res) => {
   res.status(StatusCodes.CREATED).json({ user: { name: user.name }, token });
 };
 
+//login a user
 const login = async (req, res) => {
   const { email, password } = req.body;
 
