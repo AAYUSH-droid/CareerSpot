@@ -4,66 +4,36 @@
 npm install && npm start
 ```
 
-#### Database Connection
+# Job Tracking App
 
-1. Import connect.js
-2. Invoke in start()
-3. Setup .env in the root
-4. Add MONGO_URI with correct value
+This is a job tracking app that allows users to keep track of their job applications. Users can **add new jobs**, **edit existing jobs**, and **view all** their jobs on a dashboard.
 
-#### Routers
+## Features
 
-- auth.js
-- jobs.js
+**User authentication**: users can register and login to access their dashboard
 
-#### User Model
+**Add new jobs**: users can add new jobs with details such as company name, position, and status.
 
-Email Validation Regex
+**Edit jobs**: users can edit existing jobs and update their details
 
-```regex
-/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-```
+**View all jobs**: users can view all their jobs on a dashboard
+Responsive design: the app is designed to work on desktop and mobile devices
 
-#### Register User
+## Technologies Used
 
-- Validate - name, email, password - with Mongoose
-- Hash Password (with bcryptjs) (salt)
-- Save User
-- Generate Token
-- Send Response with Token
+- React: front-end framework for building user interfaces
 
-#### Login User
+- Node.js: back-end runtime environment for running JavaScript code
 
-- Validate - email, password - in controller
-- If email or password is missing, throw BadRequestError
-- Find User
-- Compare Passwords
-- If no user or password does not match, throw UnauthenticatedError
-- If correct, generate Token
-- Send Response with Token
+- Express: web application framework for Node.js
 
-#### Mongoose Errors
+- MongoDB: NoSQL database for storing job data
 
-- Validation Errors
-- Duplicate (Email)
-- Cast Error
+- Axios: Promise-based HTTP client for making API requests
 
-#### Security
+- bcrypt: library for hashing passwords
 
-- helmet
-- cors
-- xss-clean
-- express-rate-limit
+- JWT: library for generating JSON web tokens for user
+  authentication.
 
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
+- Moment.js: library for formatting dates
