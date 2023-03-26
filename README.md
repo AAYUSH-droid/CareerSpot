@@ -17,7 +17,8 @@ This is a job tracking app that allows users to keep track of their job applicat
 **Edit jobs**: users can edit existing jobs and update their details
 
 **View all jobs**: users can view all their jobs on a dashboard
-Responsive design: the app is designed to work on desktop and mobile devices
+
+**Responsive design**: the app is designed to work on desktop and mobile devices
 
 ## Technologies Used
 
