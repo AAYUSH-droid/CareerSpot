@@ -31,10 +31,17 @@ This is a job tracking app that allows users to keep track of their job applicat
 - MongoDB: NoSQL database for storing job data
 
 - Axios: Promise-based HTTP client for making API requests
-
+  
 - bcrypt: library for hashing passwords
 
 - JWT: library for generating JSON web tokens for user
   authentication.
 
 - Moment.js: library for formatting dates
+  
+<img width="1296" alt="Screenshot 2023-07-18 at 6 06 47 PM" src="https://github.com/AAYUSH-droid/CareerSpot/assets/76835619/6338f63f-cea4-40f6-aae2-6e92f1e136a0">
+<img width="537" alt="Screenshot 2023-07-18 at 6 06 55 PM" src="https://github.com/AAYUSH-droid/CareerSpot/assets/76835619/cdf44cbb-3ef4-412d-ba17-14a769c582b9">
+<img width="1162" alt="Screenshot 2023-07-18 at 6 07 44 PM" src="https://github.com/AAYUSH-droid/CareerSpot/assets/76835619/e4239617-f5fa-4a3c-9145-96fd79450e76">
+
+
+
